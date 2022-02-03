@@ -1,0 +1,15 @@
+.press{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8% 0%;
+    font-size: 1.7rem;
+    span{
+        display: flex;
+        align-items: center;
+        img{
+            margin-right: 10px;
+        }
+    }
+}

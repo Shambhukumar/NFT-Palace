@@ -1,0 +1,78 @@
+$color-pink: #FF3998;
+
+.hero {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    width: 100%;
+    height: 80vh;
+
+    &-left {
+        // height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50%;
+
+        &-launch {
+            color: $color-pink;
+            font-size: 1.2rem
+        }
+
+        &-text {
+            font-size: 6.5rem;
+        }
+
+        &-description {
+            font-size: 1.5rem;
+        }
+
+        &-btn {
+            cursor: pointer;
+            width: 120px;
+            background:
+                linear-gradient(black, black) padding-box,
+                linear-gradient(to right, #FF3939, #FF8139) border-box;
+            border-radius: 50em;
+            border: 3px solid transparent;
+            padding: 10px;
+            text-align: center;
+        }
+    }
+
+    &-right {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 40%;
+            z-index: 99;
+        }
+
+        &-ecp{
+          
+            &-1{
+                position: absolute;
+                bottom: 20%;
+                right: 15%;
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                background: #FF3998;
+                filter: blur(80px);
+            }
+            &-2{
+                position: absolute;
+                bottom: 20%;
+                right: 25%;
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                background: #FF3939;
+                filter: blur(80px);
+            }
+        }
+    }
+}

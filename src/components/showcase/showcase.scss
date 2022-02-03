@@ -1,0 +1,24 @@
+.showcase{
+    margin: 5% 0%;
+    &-text{
+        display: flex;
+        flex-direction: column;
+        &-1{
+            font-size: 2.5rem;
+            color: white;
+            margin-bottom: 20px;
+         }
+         &-2{
+             margin-bottom: 50px;
+             color: #999999;
+             span{
+                 cursor: pointer;
+                 text-decoration: underline;
+             }
+         }
+    }
+    &-card{
+        display: flex;
+        justify-content: space-between;
+    }
+}

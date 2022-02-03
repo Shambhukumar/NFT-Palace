@@ -1,0 +1,53 @@
+$green: #39FFA0;
+$pink: #FF3998;
+$orange: #FF8139;
+$red: #FF3939;
+$dark: #111111;
+
+.upsell{
+    display: flex;
+    margin-top: 5%;
+    border-radius: 20px;
+    width: 100%;
+    height: 35vh;
+    color: $dark;
+    background: linear-gradient(60deg,$red  ,$pink , $orange 80%, $green );
+
+    &-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20px;
+        height: 100%;
+        &-text{
+            font-weight: 500;
+            font-size: 2.4rem;
+        }
+        &-dis{
+            font-size: 1.3rem;
+        }
+       
+        img{
+            width: 70px;
+        }
+    }
+    &-cards{
+        position: relative;
+        width: 50%;
+        &-1{
+        top: -25%;
+        right: 40%;
+        position: absolute;
+        transform: rotate(-10deg);
+        z-index: 1;
+        
+        }
+      
+        &-2{
+            top: -25%;
+        right: 10%;
+        position: absolute;
+        transform: rotate(10deg);
+        }
+    }
+}

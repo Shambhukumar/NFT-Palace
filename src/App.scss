@@ -1,0 +1,11 @@
+$dark-background: #000000;
+$font-light: #CCCCCC;
+$color-pink: #FF3998;
+$color-orange: #FF8139;
+.App{
+    background-color: $dark-background;
+    min-height: 100vh;
+    color: $font-light;
+    padding: 30px 90px;
+}
+
