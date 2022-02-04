@@ -1,0 +1,61 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    &-top{
+        padding: 20px 0px;
+        height: 60%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        &-left{
+            width: 40%;
+            display: flex;
+            height: 90%;
+            flex-direction: column;
+            justify-content: space-between;
+            &-logo{
+                display: flex;
+                align-items: center;
+                font-size: 1.4rem;
+                img{
+                    margin-right: 15px;
+                }
+            }
+            &-icons{
+               
+                img{
+                    cursor: pointer;
+                    width: 20px;
+                    margin-right: 10px;
+                }
+            }
+        }
+        &-right{
+           
+            width: 40%;
+            height: 70%;
+            display: flex;
+            justify-content: space-between;
+            &-about, &-nft, &-contact, &-social{
+                ul{
+                   margin-top: 20px;
+                   list-style: none;
+                   display: flex;
+                   flex-direction: column; 
+                   li{
+                       margin-bottom: 20px;
+                       cursor: pointer;
+                   }
+                   
+                }
+                
+            }
+        }
+    }
+    &-bottom{
+        display: flex;
+        justify-content: space-between;
+    }
+}

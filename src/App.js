@@ -8,6 +8,7 @@ import Showcase from './components/showcase/Showcase';
 import Upsell from './components/upsell/Upsell';
 import upsellpng from "./Assets/img/section-3.png";
 import heroimage from "./Assets/img/hero.png";
+import Footer from './components/footer/Footer';
 const  App = () => {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ const  App = () => {
      <Section1/>
      <Section2/>
      <Hero data={{img: upsellpng, size: "small"}}/>
+     <Footer/>
     </div>
   );
 }
