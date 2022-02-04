@@ -2,22 +2,10 @@ import img1 from "../../Assets/img/showcase/img1.png";
 import img2 from "../../Assets/img/showcase/img2.png";
 import img3 from "../../Assets/img/showcase/img3.png";
 import img4 from "../../Assets/img/showcase/img4.png";
-import img5 from "../../Assets/img/upsell/upsell-2.png";
+
 import currency from "../../Assets/img/currency-1.png";
 export const data = [
-    {
-        img: img5,
-        series: "GLOOP SERIES",
-        name: "Brown",
-        price: 2.99,
-        currency: "ETH",
-        id: "#12983",
-        days: "1 day left",
-        icon: currency,
-        backcolor: "#111111",
-        fontcolor: "#ffff" 
-      
-      },
+
     {
         img: img1,
         series: "GLOOP SERIES",
