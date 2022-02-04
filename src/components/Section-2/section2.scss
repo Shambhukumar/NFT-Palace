@@ -1,7 +1,8 @@
 .section2{
     display: flex;
     justify-content: space-between;
-    height: 50vh;
+    height: 60vh;
+    margin: 20px 0px;
     &-card1,&-card2{
         span{
             font-size: 2rem;
@@ -12,7 +13,7 @@
         }
         background-color: #555555;
         border-radius: 10px;
-        padding: 40px;
+        padding: 50px 60px;
         width: 47%;
         height: 100%;
         display: flex;
@@ -20,6 +21,6 @@
         justify-content: space-between;
     }
     img{
-        width: 50px;
+        width: 45px;
     }
 }

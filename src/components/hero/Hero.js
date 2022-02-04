@@ -1,14 +1,14 @@
 import React from 'react';
 import "./hero.scss";
-import heroImg from "../../Assets/img/hero.png";
-const Hero = () => {
+const Hero = (props) => {
+    const {size, img} = props.data
   return (
-      <div className='hero'>
+      <div className={`hero hero-${size}`}>
           <div className='hero-left'>
             <span className='hero-left-launch'>LANCHING SOON</span>
 
-            <span className='hero-left-text'>
-                An NFT like no other
+            <span className={`hero-left-text hero-left-text-${size} `}>
+               An NFT like no other
             </span>
 
             <span className='hero-left-description'>
@@ -22,8 +22,8 @@ const Hero = () => {
             </span>
           </div>
 
-            <div className='hero-right'>
-                <img src={heroImg} alt="hero img"/>
+            <div className={`hero-right hero-right-${size}`}>
+                <img src={img} alt="hero img"/>
                 <span className='hero-right-ecp-1'></span>
                 <span className='hero-right-ecp-2'></span>
             </div>
