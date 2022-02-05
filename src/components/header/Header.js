@@ -13,6 +13,11 @@ const Header = () => {
                 <li className='header-links-item'>Launch</li>
                 <li className='header-links-item'>Sign Up</li>
           </ul>
+          <div className='header-mobile'>
+              <span className='header-mobile-1'></span>
+              <span className='header-mobile-2'></span>
+              <span className='header-mobile-3'></span>
+          </div>
       </div>
   );
 };

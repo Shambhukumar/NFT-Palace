@@ -3,18 +3,36 @@
     flex-direction: column;
     justify-content: space-around;
     height: 40vh;
+    @media (max-width: 600px) {
+        justify-content: space-between;
+        height: 60vh;
+    }
     &-top{
         padding: 20px 0px;
         height: 60%;
         width: 100%;
         display: flex;
         justify-content: space-between;
-        &-left{
-            width: 40%;
-            display: flex;
-            height: 90%;
+        @media (max-width: 600px) {
+            height: 80%;
             flex-direction: column;
             justify-content: space-between;
+            
+        }
+        &-left{
+            width: 40%;
+
+            display: flex;
+            // height: 90%;
+            flex-direction: column;
+            justify-content: space-between;
+            @media (max-width: 600px) {
+              width: 70%;
+                
+            }
+            &-text{
+                margin-top: 10px;
+            }
             &-logo{
                 display: flex;
                 align-items: center;
@@ -24,7 +42,7 @@
                 }
             }
             &-icons{
-               
+               margin-top: 10px;
                 img{
                     cursor: pointer;
                     width: 20px;
@@ -37,6 +55,15 @@
             width: 40%;
             height: 70%;
             display: flex;
+            
+            @media (max-width: 600px) {
+                
+                
+                width: 60%;
+                height: 50%;
+            }
+            
+            gap: 20px;
             justify-content: space-between;
             &-about, &-nft, &-contact, &-social{
                 ul{

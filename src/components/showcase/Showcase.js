@@ -9,10 +9,12 @@ const Showcase = () => {
           <span className='showcase-text-1'>LE Super Rare Auction</span>
           <span className='showcase-text-2'>We have released four limited edition NFTs early which can be bid on via <span>Open Sea</span></span>
       </div>
+      <div className='showcase-scroll'>
       <div className='showcase-card'>
             {data.map((e,el)=>{
                 return <Card data={e}/>
             })}
+      </div>
       </div>
 
   </div>);

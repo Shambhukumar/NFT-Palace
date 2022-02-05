@@ -17,8 +17,12 @@ $color-pink: #FF3998;
         }
     }
     &-links{
+      
         display: flex;
         width: 25%;
+        @media (max-width: 1130px) {
+            width: 35%;
+        }
         justify-content: space-between;
         list-style: none;
         align-items: center;
@@ -29,6 +33,29 @@ $color-pink: #FF3998;
                 color: $color-pink;
             }
             
+        }
+        @media (max-width: 740px) {
+            display: none;
+            opacity: 0;
+        }
+    }
+    &-mobile{
+      
+        cursor: pointer;
+        display: none;
+        opacity: 0;
+        @media (max-width: 740px) {
+            display: flex;
+            opacity: 1;
+        }
+        flex-direction: column;
+        height: 30px;
+        justify-content: space-between;
+        span{
+            background-color: white;
+            width: 40px;
+            height: 4px;
+            // border-top: 2px solid white;
         }
     }
 }

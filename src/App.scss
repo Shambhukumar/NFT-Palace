@@ -7,5 +7,13 @@ $color-orange: #FF8139;
     min-height: 100vh;
     color: $font-light;
     padding: 30px 90px;
+    @media (max-width: 870px) {
+        padding: 30px 50px;
+         
+     }
+     @media (max-width: 870px) {
+        padding: 30px 20px;
+         
+     }
 }
 

@@ -92,6 +92,12 @@ html,body {
 html,body{
   overflow: overlay;
   overflow-x: hidden;
+  @media (max-width: 1130px) {
+    font-size: 14px;
+}
+  @media (max-width: 1074px) {
+    font-size: 12px;
+}
 }
 
 code {

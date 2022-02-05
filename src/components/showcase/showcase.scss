@@ -1,7 +1,8 @@
 .showcase{
     margin: 5% 0%;
-   
+    
     &-text{
+        position: sticky;
         display: flex;
         flex-direction: column;
         &-1{
@@ -18,8 +19,15 @@
              }
          }
     }
+    &-scroll{
+        overflow-y: scroll;
+    }
     &-card{
+        
         display: flex;
         justify-content: space-between;
+        min-width: 1200px;
+        max-width: 100%;
+       
     }
 }
